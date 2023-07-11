@@ -1,0 +1,445 @@
+ul{
+    list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+    background: #F2F2F2;
+}
+nav{
+    max-width: 1500px;
+    width: 100%;
+    margin: auto;
+    height: 131px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 48px;
+    margin: 54px 0px;
+}
+li a{
+    color: #000000;
+}
+.logo{
+    margin: 42px 0px;
+    padding: 0px 26px;
+}
+
+.sell-smth{
+    color: #FFFFFF;
+    border-radius: 12px;
+    background-color: #29B24E;
+    padding: 13px 26px;
+    margin: 42px 0px;
+}
+
+
+
+
+/* QVEDA PART */
+
+
+.ad-container{
+    max-width: 1500px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+}
+
+.ad-heading{
+    padding: 0px 26px;
+
+}
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.front-and-background{
+    position: relative;
+    /* display: flex;
+    margin: auto; */
+    /* margin-right: 0px; */
+}
+
+.ad-background{
+    position: relative;
+    max-width: 375px;
+}
+
+.ad-pic1{
+    position: absolute;
+    max-width: 315px;
+    top: 30px;
+    left: 30px;
+    z-index: 0;
+}
+.vip-top{
+    position: absolute;
+    background-color: #29B24E;
+    border-radius: 15px;
+    width: 76px;
+    height: 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    top: 30px;
+    left: 35px;
+    z-index: 1;
+}
+.fav-icon{
+    position: absolute;
+    top: 48%;
+    right: 12%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.h3{
+    position: absolute;
+    top: 50%;
+    left: 35px;
+}
+
+h4{
+    position: absolute;
+    top: 55%;
+    left: 35px;
+}
+.price{
+    position: absolute;
+    top: 70%;
+    right: 22%;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: right;
+    color: #29B24E;
+}
+
+.month{
+    position: absolute;
+    right: 10%;
+    top: 72%;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+} 
+.front-and-background ul{
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
+    gap: 30px;
+    /* border-top: 1px solid #CFEAD6; */
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* ZEDA PART */
+
+
+/* FILTER */
+
+
+
+.filt-mainimg{
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+}
+
+.filter{
+    position: relative;
+    display: flex;
+    height: 720px;
+    /* max-width: 1500px; */
+}
+.filter-background{
+    max-width: 395px;
+    position: relative;
+}
+.dropdown {
+    position: absolute;
+    top: 32px;
+    bottom: 38px;
+    left: 32px;
+}
+.checkbox1{
+    position: absolute;
+    accent-color: #29B24E;
+    top: 152px;
+    left: 32px
+}
+
+
+/* .checkbox2{
+    position: absolute;
+    bottom: 38px;
+    left: 32px;
+} */
+
+/* yvela satauri */
+
+.filter h3{
+    font-size: 16px;
+}
+.dropdown select{
+    width: 331px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid rgba(13, 156, 164, 0.21);
+    background: #F8F8F8;
+}
+.checkbox1 label{
+    color: #000;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+
+}
+
+
+.main-img-content{
+    margin-top: 20px;
+    position: relative;  
+}
+.main-img-content img{
+    max-width: 1100px;
+} 
+.resp-img, .resp-h2, .resp-h2-sec-prt, .resp-h5{
+    display: none;
+}
+
+.main-img-content h1{
+    position: absolute;
+    left: 15%;
+    top: 60px;
+    margin: 0 auto;
+    font-size: 48px;
+    font-family: Poppins;
+    color: #000000;
+}
+.main-img-content h5{
+    position: absolute;
+    left: 33%;
+    top: 15%;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #00000080;
+    
+}
+.search{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.search input{
+    width: 300px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(248, 248, 248, 0.80);
+    box-shadow: 0px 4px 10px 0px rgba(124, 124, 124, 0.27);
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #29B24E;
+    border-radius: 25px;
+    height: 179px;
+    margin-top: 100px;
+}
+footer div{
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.footer-left, .footer-right{
+    gap: 30px;
+    margin: 40px 0px;
+    padding: 0px 20px;
+}
+
+.mail{
+    margin: 40px 0px;
+    /* padding: 1px 20px; */
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.footer-content{
+    border-bottom: 2px solid #D0D0D0;
+}
+
+
+footer p{
+    text-align: center;
+    margin-top: 40px;
+    /* padding: 0px 20px; */
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+}
+footer ul li a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media (max-width:768px){
+
+
+    section{
+        display: block;
+        max-width: 768px;
+        width: 100%;
+        margin: auto;
+    }
+
+
+    header nav ul, .sell-smth {
+        display: none;
+    }
+
+    /* .header-search{
+        width: 44px;
+        height: 44px;
+        border: 1px solid #FFFFFF;
+        border-radius: 24px;
+        background: #FFFFFF;
+    }
+
+    input{
+        display: none;
+    } */
+
+
+    .main-img-content img, h1, h5, .search{
+        display: none;
+    }
+
+
+    .filt-mainimg{
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .resp-img{
+        display: block;
+        height: 435px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .resp-h2{
+        display: block;
+        position: absolute;
+        top: 2%;
+        left: 22%;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    
+    .resp-h2-sec-prt{
+        display: block;
+        position: absolute;
+        top: 5%;
+        left: 35%;
+    }
+
+        
+    
+    .resp-h5{
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        margin: 0 auto;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        color: #00000080;
+    }
+
+
+
+
+    .filter{
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        left: 50%;
+        margin-left: -197px;
+    }
+
+
+/* dropdown-is opciebi */
+
+
+
+    footer{
+        border-radius: 24px;
+        max-width: 375px;
+        height: 326px;
+        position: relative;
+        max-width: 375px;
+        width: 100%;
+        margin: auto;
+    }
+    .footer-content{
+        display: block;
+        border-bottom: 2px solid #D0D0D0;
+    }
+    .footer-left, .footer-right{
+        display: block;
+        position: absolute;
+    }
+    footer ul li a{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .footer-right{
+        display: block;
+        position: absolute;
+        right: 3%;
+        text-align: right;
+    }
+
+    footer p{
+        position: absolute;
+        bottom: 15px;
+        left: 26%;
+    }
+
+    .mail{
+        display: none;
+    }
+
+}
