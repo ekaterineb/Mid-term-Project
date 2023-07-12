@@ -4,11 +4,7 @@ ul{
 a{
 	text-decoration: none;
 }
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+
 
 body{
     background: #F2F2F2;
@@ -63,7 +59,6 @@ footer div{
 
 .mail{
     margin: 40px 0px;
-    /* padding: 1px 20px; */
     color: #FFF;
     font-family: Poppins;
     font-size: 14px;
@@ -76,7 +71,6 @@ footer div{
 footer p{
     text-align: center;
     margin-top: 40px;
-    /* padding: 0px 20px; */
     color: #FFF;
     font-family: Poppins;
     font-size: 14px;
@@ -88,7 +82,7 @@ footer ul li a{
 }
 
 
-/* FOTOEBI */
+
 
 .ad-container{
     max-width: 1500px;
@@ -108,7 +102,6 @@ footer ul li a{
 
 .front-and-background{
     position: relative;
-    /* margin-right: 0px; */
 }
 
 .ad-background{
@@ -190,7 +183,7 @@ h4{
 
 
 
-/* zeda part */
+
 
 
 
@@ -349,7 +342,6 @@ footer{
     max-width: 375px;
     height: 326px;
     position: relative;
-    max-width: 375px;
     width: 100%;
     margin: auto;
 }
@@ -383,7 +375,7 @@ footer p{
 }
 
 
-/* zeda ori foto */
+
 
 
 .img-detailed-descr{
@@ -520,11 +512,3 @@ footer p{
 
 }
 
-
-/* @media (min-width:768px)and(max-width:1024px){
-
-.img-detailed-descr{
-    display: flex;
-    flex-wrap: wrap;
-}
-} */

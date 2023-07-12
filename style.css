@@ -52,7 +52,6 @@ li a{
 
 .ad-heading{
     padding: 0px 26px;
-
 }
 .pictures{
     display: flex;
@@ -61,9 +60,6 @@ li a{
 
 .front-and-background{
     position: relative;
-    /* display: flex;
-    margin: auto; */
-    /* margin-right: 0px; */
 }
 
 .ad-background{
@@ -137,7 +133,6 @@ h4{
     left: 0px;
     bottom: -15px;
     gap: 30px;
-    /* border-top: 1px solid #CFEAD6; */
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
@@ -145,10 +140,7 @@ h4{
 
 
 
-/* ZEDA PART */
 
-
-/* FILTER */
 
 
 
@@ -162,7 +154,6 @@ h4{
     position: relative;
     display: flex;
     height: 720px;
-    /* max-width: 1500px; */
 }
 .filter-background{
     max-width: 395px;
@@ -182,13 +173,7 @@ h4{
 }
 
 
-/* .checkbox2{
-    position: absolute;
-    bottom: 38px;
-    left: 32px;
-} */
 
-/* yvela satauri */
 
 .filter h3{
     font-size: 16px;
@@ -253,7 +238,7 @@ h4{
 }
 
 
-/* FOOTER */
+
 
 footer{
     background-color: #29B24E;
@@ -275,7 +260,6 @@ footer div{
 
 .mail{
     margin: 40px 0px;
-    /* padding: 1px 20px; */
     color: #FFF;
     font-family: Poppins;
     font-size: 14px;
@@ -289,7 +273,6 @@ footer div{
 footer p{
     text-align: center;
     margin-top: 40px;
-    /* padding: 0px 20px; */
     color: #FFF;
     font-family: Poppins;
     font-size: 14px;
@@ -308,15 +291,17 @@ footer ul li a{
 
 
 
-/* responsive */
+
 
 @media (max-width:768px){
 
-
+header{
+    max-width: 335px;
+}
     section{
         display: block;
-        max-width: 768px;
-        width: 100%;
+        max-width: 335px;
+        width: 96%;
         margin: auto;
     }
 
@@ -324,19 +309,6 @@ footer ul li a{
     header nav ul, .sell-smth {
         display: none;
     }
-
-    /* .header-search{
-        width: 44px;
-        height: 44px;
-        border: 1px solid #FFFFFF;
-        border-radius: 24px;
-        background: #FFFFFF;
-    }
-
-    input{
-        display: none;
-    } */
-
 
     .main-img-content img, h1, h5, .search{
         display: none;
@@ -347,6 +319,7 @@ footer ul li a{
         display: block;
         position: relative;
         margin: 0 auto;
+        max-width: 335px;
     }
 
     .resp-img{
@@ -359,9 +332,9 @@ footer ul li a{
         display: block;
         position: absolute;
         top: 2%;
-        left: 22%;
+        left: 15%;
         font-family: Poppins;
-        font-size: 24px;
+        font-size: 25px;
         font-weight: 600;
     }
 
@@ -370,7 +343,10 @@ footer ul li a{
         display: block;
         position: absolute;
         top: 5%;
-        left: 35%;
+        left: 28%;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 600;
     }
 
         
@@ -379,15 +355,13 @@ footer ul li a{
         display: block;
         position: absolute;
         top: 10%;
-        left: 15%;
+        left: 8%;
         margin: 0 auto;
         font-family: Poppins;
         font-size: 14px;
         font-weight: 400;
         color: #00000080;
     }
-
-
 
 
     .filter{
@@ -399,16 +373,18 @@ footer ul li a{
     }
 
 
-/* dropdown-is opciebi */
-
+    .ad-container{
+        display: block;
+        max-width: 335px;
+        margin-left: -25px;
+    }
 
 
     footer{
         border-radius: 24px;
-        max-width: 375px;
+        max-width: 335px;
         height: 326px;
         position: relative;
-        max-width: 375px;
         width: 100%;
         margin: auto;
     }
